@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap");
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+/**/
+.full-first-page {
+  width: 375px;
+  margin: auto;
+  background-color: #fcfaf9;
+}
+
+header {
+  width: 375px;
+  height: 630px;
+}
+
+.art-gallery {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #151515;
+}
+.header-text {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-top: 32px;
+}
+
+.second-header-block {
+  width: 342px;
+  margin: 32px 16px 0 16px;
+}
+
+/***********************START BUTTON************************/
+
+.button {
+  width: 260px;
+  height: 72px;
+  display: flex;
+  margin-top: 32px;
+}
+
+.button:hover .btn1 {
+  background-color: #d5966c;
+  transition: 0.25s linear 0.25s;
+  border: none;
+}
+
+.button:hover .btn2 {
+  background-color: #151515;
+  transition: 0.25s linear 0.25s;
+  border: none;
+}
+
+.btn1 {
+  height: 72px;
+  width: 204px;
+  background-color: #151515;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  color: #ffffff;
+}
+
+.btn2 {
+  height: 72px;
+  width: 56px;
+  background-color: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************************FINISH BUTTON*****************************/
+
+main {
+  width: 375px;
+  padding: 120px 16px 120px 16px;
+}
+
+.first-main-block {
+  width: 343px;
+  margin-bottom: 25px;
+}
+
+.Your-Day {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #151515;
+}
+
+.paragraph {
+  margin-top: 21px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+}
+
+.third-main-block {
+  margin-top: 32px;
+}
+
+.third-main-block {
+  width: 343px;
+}
+
+.fourth-main-block {
+  width: 343px;
+  margin-top: 16px;
+}
+
+.fiveth-main-block {
+  width: 343px;
+  height: 293px;
+  margin-top: 16px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspired {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.collections {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.fiveth-inside-main-block {
+  height: 198px;
+  width: 295px;
+}
+
+/*********************FOOTER************************/
+
+footer {
+  height: 336px;
+  width: 375px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-inside-block {
+  width: 311px;
+}
+
+.second-footer-block {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.third-footer-block {
+  display: flex;
+}
+
+.first-footer-block {
+  margin-top: 48px;
+}
+.second-footer-block {
+  margin-top: 38px;
+}
+
+.third-footer-block {
+  margin-top: 38px;
+  margin-bottom: 48px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook:hover {
+  filter: invert(57%) sepia(61%) saturate(302%) hue-rotate(341deg)
+    brightness(101%) contrast(90%);
+}
+
+.instagram:hover {
+  filter: invert(57%) sepia(61%) saturate(302%) hue-rotate(341deg)
+    brightness(101%) contrast(90%);
+}
+
+.twitter:hover {
+  filter: invert(57%) sepia(61%) saturate(302%) hue-rotate(341deg)
+    brightness(101%) contrast(90%);
+}
